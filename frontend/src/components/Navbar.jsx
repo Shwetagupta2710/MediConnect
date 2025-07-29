@@ -8,16 +8,20 @@ const Navbar = () => {
       <img className="w-44 cursor-pointer" src={assets.logo123} alt="Logo" />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
-          <li>HOME</li>
+          <li className="py1">HOME</li>
+          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto" />
         </NavLink>
         <NavLink to="/doctors">
-          <li>ALL DOCTORS</li>
+          <li className="py1">ALL DOCTORS</li>
+          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto" />
         </NavLink>
         <NavLink to="/about">
-          <li>About</li>
+          <li className="py1">About</li>
+          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto" />
         </NavLink>
         <NavLink to="/contact">
-          <li>Contact</li>
+          <li className="py1">Contact</li>
+          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto" />
         </NavLink>
       </ul>
       <div>
